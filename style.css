@@ -1,0 +1,71 @@
+/* General body styling */
+body {
+    background: #f8f9fa;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background: #fff !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #d35400 !important;
+    letter-spacing: 1px;
+}
+
+.nav-link.active, .nav-link:hover {
+    color: #d35400 !important;
+}
+
+/* Recipe Book Title */
+h1 {
+    color: #d35400;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+/* Recipe Card Styles */
+.recipe-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    transition: transform 0.15s;
+}
+.recipe-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 4px 20px rgba(211,84,0,0.12);
+}
+
+.recipe-card img {
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.recipe-card h3 {
+    color: #d35400;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.recipe-card p {
+    margin-bottom: 0.5rem;
+}
+
+.recipe-card strong {
+    color: #333;
+}
+
+@media (min-width: 768px) {
+    .recipe-card {
+        min-height: 350px;
+    }
+}
