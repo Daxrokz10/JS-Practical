@@ -8,12 +8,14 @@ recipeForm.addEventListener('submit', (e) => {
     let ringredients = document.getElementById('ingredients').value; 
     let rimage = document.getElementById('image').value;
     let rinstructions = document.getElementById('instructions').value;
+    let rcuisine = document.getElementById('cuisine').value; // New field for cuisine type
 
     let recipe = {
         "name": rname,
         "ingredients": ringredients,
         "image": rimage, 
-        "instructions": rinstructions
+        "instructions": rinstructions,
+        "cuisine": rcuisine
     };
     recipes.push(recipe);
     localStorage.setItem('recipes', JSON.stringify(recipes)); 
