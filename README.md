@@ -3,6 +3,7 @@
 A modern, stylish web app to add, view, search, edit, and delete your favorite recipes.  
 Built with **HTML**, **CSS (Bootstrap + custom styles)**, and **JavaScript** using browser localStorage.
 
+Deploy Link :- https://js-practical.vercel.app 
 
 ![Output](image.png)
 ---
